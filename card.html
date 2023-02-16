@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Amitava Saha">
+        <meta name="description" content="Birthday Greeting">
+        <meta name="viewport" content="width=device-width">
+        <title>Greeting Card</title>
+
+        <link rel="stylesheet" href="styles/style.css" media="all">
+        <link rel="stylesheet" href="styles/card.css" media="all">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <canvas id="confetti"></canvas>
+
+        <div class="card">
+            <div class="outside">
+                <div class="front">
+                    <p>HAPPY BIRTHDAY!</p>
+                    <div class="cake">
+                        <div class="top-layer"></div>
+                        <div class="middle-layer"></div>
+                        <div class="bottom-layer"></div>
+                        <div class="candle"></div>
+                    </div>
+                </div>
+                <div class="back"></div>
+            </div>
+            <div class="inside">
+                <p>Sending all my love to you today. And I hope you enjoy your special day this year, sweetie!</p>
+                <h1>&#127873;</h1>
+            </div>
+        </div>
+    </body>
+    <script src="scripts/confetti.min.js" charset="utf-8"></script>
+    <script src="scripts/card.js" charset="utf-8"></script>
+</html>

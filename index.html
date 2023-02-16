@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Amitava Saha">
+        <meta name="description" content="Birthday E-Greeting Card for Roma">
+        <meta name="viewport" content="width=device-width">
+        <title>Happy Birthday!</title>
+
+        <link rel="stylesheet" href="styles/style.css" media="all">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <canvas id="c"></canvas>
+        <canvas id="confetti"></canvas>
+        <div class="container" id="count">
+            <h1 id="head">Countdown to your birthday:</h1>
+            <ul>
+                <li><span id="day"></span>days</li>
+                <li><span id="hour"></span>hours</li>
+                <li><span id="minute"></span>minutes</li>
+                <li><span id="second"></span>seconds</li>
+            </ul>
+        </div>
+        <div class="container" id="merry-wrap">
+            <canvas id="snowfall"></canvas>
+            <div class="gift-box">
+                <div class="cover">
+                    <div></div>
+                </div>
+                <div class="box"></div>
+            </div>
+        </div>
+    </body>
+    <script src="scripts/confetti.min.js" charset="utf-8"></script>
+    <script src="scripts/index.js" charset="utf-8"></script>
+</html>
